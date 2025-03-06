@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas ing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        /* Personalización general */
+        body {
+            background-color: #fff3f3; /* Gris claro */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar personalizada */
+        .navbar {
+            background-color: #000 !important; /* Negro */
+        }
+
+        .navbar-brand {
+            color: #007bff !important; /* Azul */
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff !important; /* Blanco */
+            transition: color 0.3s;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #007bff !important; /* Azul */
+        }
+
+        /* Botón de búsqueda */
+        .btn-outline-success {
+            color: #fff;
+            border-color: #dc3545; /* Rojo */
+            background-color: #dc3545;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .btn-outline-success:hover {
+            background-color: #a71d2a; /* Rojo oscuro */
+            border-color: #a71d2a;
+        }
+
+        /* Estilos para el dropdown */
+        .dropdown-menu {
+            background-color: #333; /* Gris oscuro */
+        }
+
+        .dropdown-item {
+            color: #fff !important;
+        }
+
+        .dropdown-item:hover {
+            background-color: #007bff !important; /* Azul */
+            color: #fff !important;
+        }
+
+        /* Background image */
+        body {
+            background-image: url('Adobe Express - file.png'); /* Update with the correct path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Thomas team</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="https://www.youtube.com/watch?v=VqGHPU5wdKA&t=1s">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Haz click</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">hola</a></li>
+                            <li><a class="dropdown-item" href="#">hoal</a></li>
+                            <li><a class="dropdown-item" href="#">ohal</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section id="introduction" class="py-5" color= white>
+        <div class="container">
+            <h2 class="text-center mb-4">Thomas Team</h2>
+            <p class="text-center"><strong>El proyecto integrador de nuestro segundo semestre tiene como objetivo el diseño y construcción de un robot seguidor de línea,
+                 un dispositivo capaz de desplazarse de manera autónoma siguiendo un recorrido predefinido gracias al uso de sensores especializados.
+                  Este proyecto, que combina conocimientos de mecánica, cálculo, programación orientada a objetos y literatura científica,
+                   permite a los estudiantes aplicar teoría en un entorno práctico. Además de construir el robot, también se desarrollará un sitio
+                    web utilizando HTML, CSS, Bootstrap y JavaScript, donde se documentará todo el proceso, desde los cálculos de las fuerzas actuantes sobre 
+                    el robot hasta la implementación de su algoritmo de control y diseño mecánico. Este desafío interdisciplinario no solo fomenta
+                     el aprendizaje técnico, sino también habilidades de comunicación y trabajo en equipo.</strong></p>
+        </div>
+    </section>
+    <button class="navbar-brand"><a class="nav-link" aria-current="page" href="https://www.youtube.com/watch?v=VqGHPU5wdKA&t=1s">Link</a></button>
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Our Address</h5>
+                    <p> Betania<br>Montemorelos, NL, 67515</p>
+                    <p>Email: d.i.torres.salinas@gmail.com<br>Phone: (826)100-5926</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
